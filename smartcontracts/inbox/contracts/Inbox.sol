@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-pragma solidity ^0.8.13; 
+pragma solidity ^0.8.4; 
 
 /// @title A title that should describe the contract/interface
 /// @author The name of the author
@@ -25,6 +25,8 @@ contract Inbox {
     /// @notice Explain to an end user what this does
     /// @dev Explain to a developer any extra details
     /// @return string the return variables of a contract’s function state variable
+    // note: this is superfluous because the "public" message already provdes
+    // us a get function
     function getMessage() public view returns (string memory) {
         return message;
     }
