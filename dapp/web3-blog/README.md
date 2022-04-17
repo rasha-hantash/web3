@@ -13,3 +13,7 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+
+## TODO
+create sticky sessions to avoid having to sign in at every click 
