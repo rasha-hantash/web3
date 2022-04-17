@@ -33,7 +33,6 @@ yarn-error.log*
 
 node_modules
 
-./subgraph/node_modules
 
 .env
 .env.local
