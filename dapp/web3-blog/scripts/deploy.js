@@ -9,7 +9,7 @@ async function main() {
   await blog.deployed();
 
   console.log("Blog deployed to:", blog.address);
-  fs.writeFileSync('./.config.js',`
+  fs.writeFileSync('./config.js',`
   export const contractAddress = "${blog.address}"
   export const ownerAddress = "${blog.signer.address}"
   `)
