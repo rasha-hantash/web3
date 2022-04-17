@@ -23,7 +23,7 @@ function App({ Component, pageProps }) {
         walletconnect: {
           package: WalletConnectProvider,
           options: {
-            infuraId: "your infura project id",
+            infuraId: "c1f35aabc0b74f6099661c7b28820b42",
           },
         },
       },

@@ -12,8 +12,14 @@ npx hardhat test
 npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
+npx hardhat run ./scripts/deploy.js --network polygon
 ```
 
-
+# PRE REQ
+create a graph account  thegraph.com
+created a hosted service from thegraph.com
 ## TODO
 create sticky sessions to avoid having to sign in at every click 
+## Plugin to the graph protocal for a a more flexible API
+Example: If many users are actively using the application then we want to be able to only fetch the posts associated with that user 
+
