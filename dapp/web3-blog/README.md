@@ -22,4 +22,3 @@ created a hosted service from thegraph.com
 create sticky sessions to avoid having to sign in at every click 
 ## Plugin to the graph protocal for a a more flexible API
 Example: If many users are actively using the application then we want to be able to only fetch the posts associated with that user 
-
