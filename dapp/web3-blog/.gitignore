@@ -32,6 +32,9 @@ yarn-error.log*
 .vercel
 
 node_modules
+
+./subgraph/node_modules
+
 .env
 .env.local
 coverage
